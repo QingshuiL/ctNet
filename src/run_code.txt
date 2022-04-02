@@ -1,0 +1,7 @@
+
+
+conda activate open-mmlab
+D:
+cd D:\CV\ctNet\src
+
+python demo.py ctdet --demo ../images --arch hourglass --load_model_stage1 ../models/vis_hg90_3_19.pth --cluster 0
